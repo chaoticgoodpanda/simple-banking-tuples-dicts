@@ -1,0 +1,48 @@
+{
+  "scoring": {
+    "java": {},
+    "jupyter": {},
+    "python": {
+      "expenses_solution_test": {
+        "test_export_expenses": 2,
+        "test_get_expense": 2,
+        "test_deduct_expense": 2,
+        "test_sort_expenses": 2,
+        "test_update_expense": 2,
+        "test_add_expense": 2,
+        "test_import_expenses": 2
+      }
+    },
+    "c": {}
+  },
+  "extra_credit": {
+    "java": {},
+    "jupyter": {},
+    "python": {
+      "expenses_solution_test": {},
+      "test_expenses_solution": {}
+    },
+    "c": {}
+  },
+  "assignment_overview": {
+    "assignment_types": [
+      "python"
+    ],
+    "extra_credit_functions": {},
+    "ignore_files": ["expenses.txt", "export.txt", "export1.txt"],
+    "scoring": {
+      "java": {},
+      "c": {},
+      "python": {},
+      "jupyter": {}
+    },
+    "extra_credit": {
+      "java": {},
+      "c": {},
+      "python": {},
+      "jupyter": {}
+    },
+    "required_functions": {},
+    "required_files": ["expenses.py", "expenses_test.py"]
+  }
+}

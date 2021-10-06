@@ -1,0 +1,19 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Run Your Program": "cd /home/codio/workspace/submit; python3 /home/codio/workspace/submit/bank_accounts.py",
+        "Run Student Tests": "cd /home/codio/workspace/submit; python3 /home/codio/workspace/submit/bank_accounts_tests.py",
+        "Run Pre-Submission Tests": "cd /home/codio/workspace/submit; python3 /home/codio/workspace/submit/bank_accounts_tests_full.py"
+  },
+
+// Preview button configuration
+  "preview": {
+        "Project Index (static)": "https://{{domain}}/{{index}}",
+        "Current File (static)": "https://{{domain}}/{{filepath}}",
+        "Box URL": "http://{{domain3000}}/",
+        "Box URL SSL": "https://{{domain3000}}/"
+  },
+  "autogradeTestScripts": [".guides/secure/control/execute.py"]  
+}
